@@ -1,0 +1,37 @@
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cardWidth {
+    width: 50%;
+    margin: auto;
+    background-color: #9ccc9c;
+  }
+  
+  .align>h2,
+  .align>img {
+    padding: 0 10px 0 10px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .cardWidth {
+      width: 80%;
+    }
+  }
+  
+  mat-card-title {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+  }
+  
+  mat-card {
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .mainCardColor {
+    background-color: #649568;
+  }
+  

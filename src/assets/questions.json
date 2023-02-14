@@ -1,0 +1,800 @@
+[
+    {
+        "quizId": 1,
+        "name": "rest-and-the-web",
+        "questions": [
+            {
+                "questionNumber": 1,
+                "questionText": "What is the state of a computer?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The condition of the computer regarding its current values and contents",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 2,
+                "questionText": "What does REST stand for?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Represent State Transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Representational State Transfer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Representational Stateless Transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "Representational State Transference",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 3,
+                "questionText": "What is a Representation?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 4,
+                "questionText": "Which of the following is a type of state for web applications?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Application State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Resource State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Both of the above",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 5,
+                "questionText": "What is Application State?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 6,
+                "questionText": "What is Resource State?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 7,
+                "questionText": "You are on Flickr’s home page and you click on a picture. The home page disappears and a page with the picture comes up. This is an example of a change in:",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Representation",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Application State",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Resource State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 8,
+                "questionText": "Which of the following is a benefit of REST?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "It keeps the user interface and server separate from each other so they can evolve and scale independently",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "It is less complex than other means of data transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "It provides the means to obtain and manipulate data in a number of different formats",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "All of the above",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "questionNumber": 9,
+                "questionText": "With REST, how is information transferred between the application and the server?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "HTTP messages",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "HTML messages",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "XML",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "JSON",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 10,
+                "questionText": "Which of the following HTTP verbs request that the server accept information?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "GET",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "POST",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "PUT",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "DELETE",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "quizId": 2,
+        "name": "technology-value-stream",
+        "questions": [
+            {
+                "questionNumber": 1,
+                "questionText": "What is the state of a computer?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The condition of the computer regarding its current values and contents",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 2,
+                "questionText": "What does REST stand for?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Represent State Transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Representational State Transfer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Representational Stateless Transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "Representational State Transference",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 3,
+                "questionText": "What is a Representation?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 4,
+                "questionText": "Which of the following is a type of state for web applications?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Application State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Resource State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Both of the above",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 5,
+                "questionText": "What is Application State?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 6,
+                "questionText": "What is Resource State?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 7,
+                "questionText": "You are on Flickr’s home page and you click on a picture. The home page disappears and a page with the picture comes up. This is an example of a change in:",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Representation",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Application State",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Resource State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 8,
+                "questionText": "Which of the following is a benefit of REST?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "It keeps the user interface and server separate from each other so they can evolve and scale independently",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "It is less complex than other means of data transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "It provides the means to obtain and manipulate data in a number of different formats",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "All of the above",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "questionNumber": 9,
+                "questionText": "With REST, how is information transferred between the application and the server?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "HTTP messages",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "HTML messages",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "XML",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "JSON",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 10,
+                "questionText": "Which of the following HTTP verbs request that the server accept information?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "GET",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "POST",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "PUT",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "DELETE",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "quizId": 3,
+        "name": "UI-Designer-and-Waterfall",
+        "questions": [
+            {
+                "questionNumber": 1,
+                "questionText": "What is the state of a computer?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The condition of the computer regarding its current values and contents",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 2,
+                "questionText": "What does REST stand for?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Represent State Transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Representational State Transfer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Representational Stateless Transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "Representational State Transference",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 3,
+                "questionText": "What is a Representation?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 4,
+                "questionText": "Which of the following is a type of state for web applications?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Application State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Resource State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Both of the above",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 5,
+                "questionText": "What is Application State?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 6,
+                "questionText": "What is Resource State?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "The state of the computer on which you’re surfing the web",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "The state of the server you are accessing to get information from the web",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "The value of a resource at any given time",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "The transfer of information over the web",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 7,
+                "questionText": "You are on Flickr’s home page and you click on a picture. The home page disappears and a page with the picture comes up. This is an example of a change in:",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "Representation",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "Application State",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "Resource State",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "None of the above",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 8,
+                "questionText": "Which of the following is a benefit of REST?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "It keeps the user interface and server separate from each other so they can evolve and scale independently",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "It is less complex than other means of data transfer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "It provides the means to obtain and manipulate data in a number of different formats",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "All of the above",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "questionNumber": 9,
+                "questionText": "With REST, how is information transferred between the application and the server?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "HTTP messages",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "HTML messages",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "XML",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "JSON",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "questionNumber": 10,
+                "questionText": "Which of the following HTTP verbs request that the server accept information?",
+                "answers": [
+                    {
+                        "answerLetter": "A",
+                        "answerText": "GET",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "B",
+                        "answerText": "POST",
+                        "isCorrect": true
+                    },
+                    {
+                        "answerLetter": "C",
+                        "answerText": "PUT",
+                        "isCorrect": false
+                    },
+                    {
+                        "answerLetter": "D",
+                        "answerText": "DELETE",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }
+]

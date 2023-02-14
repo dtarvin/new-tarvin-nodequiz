@@ -1,0 +1,74 @@
+<div class="container" fxLayout="column">
+    <mat-card class="mat-elevation-z8">
+      <mat-card-title style="text-align: center; font-weight: heavier;" class="mat-headline">
+        {{ quizName }}
+      </mat-card-title>
+        <div *ngIf="isShown == true">
+          <h1>Results</h1>
+          <p *ngIf="quizResults">{{ displayResults }}</p>
+        </div>
+      <br>
+      <!-- root mat card content -->
+      <mat-card-content *ngIf="questions">
+        <!-- flex-layout column -->
+        <div fxLayout="column">
+  
+          <!-- Quiz form -->
+          <form #quizForm="ngForm" *ngIf="isShown == false" (ngSubmit)="onSubmit(quizForm.value); quizForm.reset();">
+            <div *ngFor="let question of questions">
+              <mat-card class="mat-elevation-z8">
+                <mat-card-content>
+  
+                  <div fxLayout="column">
+                    <!-- questions -->
+                    <mat-list>
+                      <div fxLayout="row" fxLayoutGap="10px">
+                        <p>Question: </p>
+                        <p>{{ question.questionText }}</p>
+                      </div>
+                    </mat-list>
+                    <br>
+  
+                    <!-- answers -->
+                    <div fxLayout="row" fxLayoutGap="10px">
+                      <label>Answers:</label>
+                      <div fxLayout="column" fxLayoutGap="10px">
+                        <div *ngFor="let answer of question.answers" style="flex-direction: column;">
+                          <input [(ngModel)]="qs[question.questionNumber]" [checked]="qs[question.questionNumber]" value="{{question.questionNumber}};{{answer.answerId}};{{answer.answerText}};{{answer.isCorrect}}" name="q{{question.questionNumber}}" type="radio" />
+                            {{answer.answerText}}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </mat-card-content>
+              </mat-card>
+            </div>
+  
+            <!-- mat card actions -->
+            <br>
+            <div class="buttons">
+              <mat-card-actions>
+                <button type="submit" mat-raised-button>Submit</button>
+              </mat-card-actions>
+            
+              <mat-card-actions>
+                <button mat-raised-button (click)="goBack()">Return to Presentation</button>
+              </mat-card-actions>
+            </div>
+            
+          </form>
+          <!-- end form -->
+  
+        </div>
+        <!-- end flex-layout column -->
+      </mat-card-content>
+      <!-- end root mat card content-->
+    </mat-card>
+    <!-- end root mat card -->
+  
+    
+    <!-- <div fxFlex fxLayoutAlign="end" style="width: 50%; margin: 0 auto;">
+      <button mat-button color="primary" (click)="goBack()">Return to Presentation</button>
+    </div> -->
+  </div>
+  

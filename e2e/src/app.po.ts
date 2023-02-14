@@ -1,11 +1,21 @@
+/*
+; ============================================
+; Title:  app.po.ts
+; Author: Richard Krasso
+; Modified By: David Tarvin
+; Date:   7 Oct 2019
+; Description: NodeQuiz
+;=============================================
+*/
+
 import { browser, by, element } from 'protractor';
 
 export class AppPage {
-  async navigateTo(): Promise<unknown> {
-    return browser.get(browser.baseUrl);
+  navigateTo() {
+    return browser.get(browser.baseUrl) as Promise<any>;
   }
 
-  async getTitleText(): Promise<string> {
-    return element(by.css('app-root .content span')).getText();
+  getTitleText() {
+    return element(by.css('app-root h1')).getText() as Promise<string>;
   }
 }

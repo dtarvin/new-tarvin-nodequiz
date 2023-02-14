@@ -1,0 +1,22 @@
+[
+    {
+        "quizId":1,
+        "name":"rest-and-the-web",
+        "employeeId":1007,
+        "score": 0.9,
+        "questions": [
+            {
+                "questionNumber": 1,
+                "givenAnswer": "A",
+                "correctAnswer": "B",
+                "gotRight": false
+            },
+            {
+                "questionNumber": 2,
+                "givenAnswer": "C",
+                "correctAnswer": "C",
+                "gotRight": true
+            }
+        ]
+    }
+]

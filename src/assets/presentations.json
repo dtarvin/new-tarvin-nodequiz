@@ -1,0 +1,31 @@
+[
+  {
+    "name": "rest-and-the-web",
+    "images": [
+      {"name": "Slide1"},{"name": "Slide2"},{"name": "Slide3"},{"name": "Slide4"},
+      {"name": "Slide5"},{"name": "Slide6"},{"name": "Slide7"},{"name": "Slide8"},
+      {"name": "Slide9"},{"name": "Slide10"},{"name": "Slide11"},{"name": "Slide12"},
+      {"name": "Slide13"},{"name": "Slide14"},{"name": "Slide15"}
+    ]
+  },
+  {
+    "name": "technology-value-stream",
+    "images": [
+      {"name": "Slide1"},{"name": "Slide2"},{"name": "Slide3"},{"name": "Slide4"},
+      {"name": "Slide5"},{"name": "Slide6"},{"name": "Slide7"},{"name": "Slide8"},
+      {"name": "Slide9"},{"name": "Slide10"},{"name": "Slide11"},{"name": "Slide12"},
+      {"name": "Slide13"}
+    ]
+  },
+  {
+    "name": "UI-Designer-and-Waterfall",
+    "images": [
+      {"name": "Slide1"},{"name": "Slide2"},{"name": "Slide3"},{"name": "Slide4"},
+      {"name": "Slide5"},{"name": "Slide6"},{"name": "Slide7"},{"name": "Slide8"},
+      {"name": "Slide9"},{"name": "Slide10"},{"name": "Slide11"},{"name": "Slide12"},
+      {"name": "Slide13"},{"name": "Slide14"},{"name": "Slide15"},{"name": "Slide16"},
+      {"name": "Slide17"},{"name": "Slide18"},{"name": "Slide19"},{"name": "Slide20"},
+      {"name": "Slide21"},{"name": "Slide22"},{"name": "Slide23"}
+    ]
+  }
+]

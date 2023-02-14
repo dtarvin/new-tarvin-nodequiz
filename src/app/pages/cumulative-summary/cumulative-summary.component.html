@@ -1,0 +1,29 @@
+<div class="cumulativeSummaryPage" fxLayout="column">
+    <mat-card class="mat-elevation-z8">
+        <mat-card-title class="mat-title">
+            Completed Quizzes
+        </mat-card-title>
+        <mat-card-content>
+            <div *ngIf="completedQuizzes">
+                <br><br><br>
+                <table class="cumulativeSummaryTable">
+                    <tr>
+                        <th>Employee Id</th>
+                        <th>Quiz Name</th>
+                        <th>Date Taken</th>
+                        <th>Score</th>
+                    </tr>
+                    <tr *ngFor="let quiz of completedQuizzes">
+                        <td>{{ quiz.employeeId }}</td>
+                        <td>{{ quiz.quizName }}</td>
+                        <td>{{ quiz.dateTaken }}</td>
+                        <td>{{ quiz.score }}</td>
+                    </tr>
+                </table>
+            </div>
+            <mat-card-actions>
+              <button mat-raised-button (click)="goBack()">Go back</button>
+            </mat-card-actions>
+        </mat-card-content>
+    </mat-card>
+</div>

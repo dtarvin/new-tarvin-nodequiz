@@ -1,0 +1,19 @@
+.mat-card {
+    background-color: #649568;
+}
+
+div.ui-widget-header {
+    background-color: #2b5329;
+}
+
+.mat-raised-button {
+    background-color: #2b5329;
+    color: white;
+    /* width: 30%; */
+    margin: auto;
+}
+
+.carousel {
+    background-color: #9ccc9c;
+    width: 70%;
+}

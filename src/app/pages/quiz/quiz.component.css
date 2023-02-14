@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+  }
+  
+  .container {
+    margin: auto;
+    /* margin-top: 2%;
+    width: 50%; */
+  }
+  
+  mat-card {
+    background-color: #649568;
+  }
+  
+  mat-card-content mat-card {
+    background-color: #9ccc9c;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .mat-raised-button {
+      background-color: #2b5329;
+      color: white;   
+  }
+  
+  mat-card-actions {
+    text-align: center;
+  }
+  
