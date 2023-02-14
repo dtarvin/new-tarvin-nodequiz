@@ -9,7 +9,7 @@
 
 import { CookieService } from 'ngx-cookie-service';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
@@ -20,10 +20,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LoginComponent implements OnInit {
 
-  form: FormGroup;
+  form: UntypedFormGroup;
   errorMessage: string;
 
-  constructor(private router: Router, private cookieService: CookieService, private fb: FormBuilder, private http: HttpClient) { }
+  constructor(private router: Router, private cookieService: CookieService, private fb: UntypedFormBuilder, private http: HttpClient) { }
 
   ngOnInit() {
     this.form = this.fb.group({
