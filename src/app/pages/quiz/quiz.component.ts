@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuizService } from './quiz.service';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { Location } from '@angular/common';
 import * as moment from 'moment';
 import { QuizSummaryDialogComponent} from '../../shared/quiz-summary-dialog/quiz-summary-dialog.component';
